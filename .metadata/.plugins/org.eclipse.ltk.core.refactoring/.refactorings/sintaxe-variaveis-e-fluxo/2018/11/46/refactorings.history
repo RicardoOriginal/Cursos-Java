@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;contator&apos; in &apos;TesteWhile.main(...)&apos; to &apos;contador&apos;&#x0D;&#x0A;- Original project: &apos;sintaxe-variaveis-e-fluxo&apos;&#x0D;&#x0A;- Original element: &apos;TesteWhile.main(String[]).contator&apos;&#x0D;&#x0A;- Renamed element: &apos;contator&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;contator&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{TesteWhile.java[TesteWhile~main~\[QString;@contator!74!90!78!85!I!0!false" name="contador" references="true" stamp="1541965367818" version="1.0"/>
+</session>

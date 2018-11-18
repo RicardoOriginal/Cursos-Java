@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;TestaGetESet&apos;" deleteContents="false" description="Delete resource &apos;TestaGetESet&apos;" element1="/TestaGetESet" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1542227360077"/>&#x0A;<refactoring comment="Delete resource &apos;bytebank-herdado-conta/bin/TesteContas.class&apos;" deleteContents="false" description="Delete resource &apos;bytebank-herdado-conta/bin/TesteContas.class&apos;" element1="/bytebank-herdado-conta/bin/TesteContas.class" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1542485589526"/>
+</session>

@@ -1,0 +1,29 @@
+
+
+public class Conta {
+	private ContaData data = new ContaData(100);
+
+	public void deposita(double valor) {
+		this.data.setSaldo(this.data.getSaldo() + valor);
+	}
+
+	public boolean saca(double valor) {
+		if (this.data.getSaldo() >= valor) {
+			this.data.setSaldo(this.data.getSaldo() - valor);
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	public boolean transfere(double valor, Conta destino) {
+		if (this.data.getSaldo() >= valor) {
+			this.saca(valor);
+			destino.deposita(valor);
+			return true;
+		}
+		return false;
+	}
+	
+	
+}

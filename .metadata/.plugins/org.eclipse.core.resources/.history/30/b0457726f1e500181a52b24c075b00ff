@@ -1,0 +1,10 @@
+
+public class TestaFatorial {
+	public static void main(String[] args) {
+		for(int n = 1; n <=10; n++) {
+			for(int fatorial = n; fatorial >= 1; fatorial++)
+			System.out.print(fatorial*n);
+			System.out.println();
+		}
+	}
+}
