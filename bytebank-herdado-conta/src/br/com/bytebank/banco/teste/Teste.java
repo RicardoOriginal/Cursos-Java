@@ -2,7 +2,6 @@ package br.com.bytebank.banco.teste;
 
 import br.com.bytebank.banco.modelo.Conta;
 import br.com.bytebank.banco.modelo.ContaCorrente;
-import br.com.bytebank.banco.modelo.ContaPoupanca;
 import br.com.bytebank.banco.modelo.GuardadorDeContas;
 
 public class Teste {
@@ -19,7 +18,7 @@ public class Teste {
 		
 		System.out.println("Quantidade de elementos"+guardador.getQuantidadeDeElementos());
 		
-		Conta ref = guardador.getReferencia(0);
+//		Conta ref = guardador.getReferencia(0);
 	}
 
 }
