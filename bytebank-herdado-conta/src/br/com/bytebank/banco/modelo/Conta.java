@@ -1,3 +1,10 @@
+package br.com.bytebank.banco.modelo;
+/**
+ * Classe representa a moldura de uma conta
+ * @author Ricardo
+ *
+ */
+
 public abstract class Conta {
 
     protected double saldo;
@@ -5,7 +12,13 @@ public abstract class Conta {
     private int numero;
     private Cliente titular;
     private static int total = 0;
-
+    
+    /**
+     * Construtor para inicializar a conta
+     * 
+     * @param agencia
+     * @param numero
+     */
     public Conta(int agencia, int numero){
         Conta.total++;
 //        System.out.println("O total de contas é " + Conta.total);
@@ -14,25 +27,25 @@ public abstract class Conta {
 //        this.saldo = 100;
 //        System.out.println("Estou criando uma conta " + this.numero);
     }
-
+    
     public abstract void deposita(double valor);
 
-    public boolean saca(double valor) {
-        if(this.saldo >= valor) {
-            this.saldo -= valor;
-            return true;
-        } else {
-            return false;
+    /**
+     * valor precisa ser maior que o saldo
+     * 
+     * @param valor
+     * @throws SaldoInsuficienteException
+     */
+    public void saca(double valor) throws SaldoInsuficienteException{
+        if(this.saldo < valor) {
+            throw new SaldoInsuficienteException("Saldo: "+this.saldo+", Valor pedido: "+valor);
         }
+        this.saldo -= valor;
     }
 
-    public boolean transfere(double valor, Conta destino) {
-        if(this.saca(valor)) {
-                destino.deposita(valor);
-                return true;
-        } else {
-                return false;
-        }
+    public void transfere(double valor, Conta destino) throws SaldoInsuficienteException{
+        this.saca(valor);
+        destino.deposita(valor);
     }
 
     public double getSaldo(){
@@ -74,5 +87,10 @@ public abstract class Conta {
     public static int getTotal(){
         return Conta.total;
     }
+    
+    @Override
+	public String toString() {
+		return "Numero: "+ this.numero+ ", Agencia: "+this.agencia;
+	}
 
 }
