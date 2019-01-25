@@ -1,7 +1,6 @@
 package br.com.bytebank.banco.modelo;
 
-import br.com.bytebank.banco.modelo.Tributavel;
-
+//br.com.bytebank.banco.modelo.CalculadorDeImposto => FQN
 public class CalculadorDeImposto {
 	
 	private double totalImposto;
@@ -14,4 +13,5 @@ public class CalculadorDeImposto {
 	public double getTotalImposto() {
 		return totalImposto;
 	}
+
 }
