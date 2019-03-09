@@ -7,6 +7,7 @@ package br.com.bytebank.banco.modelo;
  * @author Nico Steppat
  *
  */
+
 public abstract class Conta extends Object implements Comparable<Conta>{
 
     protected double saldo;
@@ -91,6 +92,7 @@ public abstract class Conta extends Object implements Comparable<Conta>{
     public static int getTotal(){
         return Conta.total;
     }  
+
     
     @Override
     public boolean equals(Object ref) {

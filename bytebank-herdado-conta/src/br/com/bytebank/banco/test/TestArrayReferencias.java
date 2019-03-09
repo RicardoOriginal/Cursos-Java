@@ -33,6 +33,7 @@ public class TestArrayReferencias {
 		System.out.println(cc2.getNumero());
 		System.out.println(ref.getNumero());
 
+
 	}
 
 }
