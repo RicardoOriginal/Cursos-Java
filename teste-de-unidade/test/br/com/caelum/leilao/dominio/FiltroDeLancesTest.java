@@ -11,7 +11,7 @@ public class FiltroDeLancesTest {
 
 	@Test
     public void deveSelecionarLancesEntre1000E3000() {
-        Usuario joao = new Usuario("Joao");
+        Usuario joao = new Usuario("Joaoasdadasd");
 
         FiltroDeLances filtro = new FiltroDeLances();
         List<Lance> resultado = filtro.filtra(Arrays.asList(
