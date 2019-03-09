@@ -1,5 +1,0 @@
-public class SistemaInterno {
-	public void autentica(Gerente g) {
-		
-	}
-}
