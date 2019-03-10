@@ -1,10 +1,12 @@
-package br.com.caelum.leilao.dominio;
+package br.com.caelum.leilao.test;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import com.sun.java_cup.internal.runtime.virtual_parse_stack;
+import br.com.caelum.leilao.dominio.Lance;
+import br.com.caelum.leilao.dominio.Leilao;
+import br.com.caelum.leilao.dominio.Usuario;
 
 public class LeilaoTest {
 
@@ -71,4 +73,28 @@ public class LeilaoTest {
 		assertEquals(11000.0, leilao.getLances().get(leilao.getLances().size()-1).getValor(), 0.00001);
 		
 	}
+	
+	@Test
+	public void deveDobrarOUltimoLance() {
+		Leilao leilao = new Leilao("Macbook Pro 15");
+		Usuario steveJobs = new Usuario("Steve jobs");
+		Usuario billGates = new Usuario("Bill Gates");
+		
+		leilao.propoe(new Lance(steveJobs, 2000));
+		leilao.propoe(new Lance(billGates, 3000));
+		leilao.dobraLance(steveJobs);		
+		
+		assertEquals(4000.0, leilao.getLances().get(2).getValor(), 0.00001);
+	}
+	
+    @Test
+    public void naoDeveDobrarCasoNaoHajaLanceAnterior() {
+        Leilao leilao = new Leilao("Macbook Pro 15");
+        Usuario steveJobs = new Usuario("Steve Jobs");
+
+        leilao.dobraLance(steveJobs);
+
+        assertEquals(0, leilao.getLances().size());
+    }
+
 }

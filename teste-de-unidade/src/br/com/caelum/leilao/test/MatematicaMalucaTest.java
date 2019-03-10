@@ -1,8 +1,10 @@
-package br.com.caelum.leilao.dominio;
+package br.com.caelum.leilao.test;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import br.com.caelum.leilao.dominio.MatematicaMaluca;
 
 public class MatematicaMalucaTest {
 
