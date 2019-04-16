@@ -13,7 +13,7 @@ public class Avaliador {
     private double soma = 0;
     private List<Lance> maiores;
 
-    public void avalia(br.com.caelum.leila.dominio.Leilao leilao) {
+    public void avalia(Leilao leilao) {
 
         if (leilao.getLances().size() == 0) {
             throw new RuntimeException("Não é possível avaliar um leilão sem lances");
