@@ -23,12 +23,12 @@ public class AvaliadorTest {
 
     @BeforeClass
     public static void testandoBeforeClass() {
-        System.out.println("before class");
+        System.out.println("Antes da classe.");
     }
 
     @AfterClass
     public static void testandoAfterClass() {
-        System.out.println("after class");
+        System.out.println("Depois da classe.");
     }
 
     @Before
@@ -212,6 +212,6 @@ public class AvaliadorTest {
         leiloeiro.avalia(leilao);
 
         assertThat(leiloeiro.getMenorLance(), equalTo(250.0));
-        assertEquals(400.0, leiloeiro.getMaiorLance(), 0.00001);
+        assertThat(leiloeiro.getMaiorLance(), equalTo(400.0));
     }
 }
