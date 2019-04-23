@@ -1,0 +1,2 @@
+Primeira linha: testando metodo de criar arquivo txt
+Segunda Linha: testando segunda linha de arquivo txt
