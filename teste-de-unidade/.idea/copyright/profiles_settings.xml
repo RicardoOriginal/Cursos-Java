@@ -1,0 +1,14 @@
+<component name="CopyrightManager">
+  <settings default="Arpia">
+    <module2copyright>
+      <element module="Project Files" copyright="Curso" />
+    </module2copyright>
+    <LanguageOptions name="JAVA">
+      <option name="fileLocation" value="3" />
+    </LanguageOptions>
+    <LanguageOptions name="__TEMPLATE__">
+      <option name="separateBefore" value="true" />
+      <option name="lenBefore" value="2" />
+    </LanguageOptions>
+  </settings>
+</component>

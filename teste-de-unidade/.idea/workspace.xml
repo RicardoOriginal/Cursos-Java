@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64e5dfd7-c30e-4d53-af5f-9d4ae157e0a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/caelum/leila/test/LeilaoMatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/Arpia.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/Curso.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Ricardo.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_2_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/teste-de-unidade/br/com/caelum/leila/test/AnoBissextoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/teste-de-unidade/br/com/caelum/leila/test/AnoBissextoTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classes/production/teste-de-unidade/br/com/caelum/leila/test/AvaliadorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/classes/production/teste-de-unidade/br/com/caelum/leila/test/AvaliadorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leila/dominio/AnoBissexto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leila/dominio/AnoBissexto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leila/test/AnoBissextoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leila/test/AnoBissextoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leila/test/AvaliadorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leila/test/AvaliadorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leila/test/LanceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leila/test/LanceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/caelum/leila/test/LeilaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/caelum/leila/test/LeilaoTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -83,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leila/test/LeilaoMatcher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#355#356#0" expanded="true" />
@@ -116,34 +113,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leila/test/AnoBissextoTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leila/test/FiltroDeLancesTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leila/test/AvaliadorTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4">
-              <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,6 +179,8 @@
         <option value="$PROJECT_DIR$/src/br/com/caelum/leila/dominio/Leilao.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/leila/test/LeilaoMatcher.java" />
         <option value="$PROJECT_DIR$/src/br/com/caelum/leila/test/LanceTest.java" />
+        <option value="$PROJECT_DIR$/src/br/com/caelum/leila/test/Teste.java" />
+        <option value="$PROJECT_DIR$/src/br/com/caelum/leila/test/TesteNovo.java" />
       </list>
     </option>
   </component>
@@ -302,66 +277,6 @@
               <item name="teste-de-unidade" type="616d4139:PackageViewModuleNode" />
               <item name="br.com.caelum.leila" type="1f31426a:PackageElementNode" />
               <item name="testDataBuilder" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="teste-de-unidade" type="58d84e3e:PackageViewProjectNode" />
-              <item name="teste-de-unidade" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-            </path>
-            <path>
-              <item name="teste-de-unidade" type="58d84e3e:PackageViewProjectNode" />
-              <item name="teste-de-unidade" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="org" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="teste-de-unidade" type="58d84e3e:PackageViewProjectNode" />
-              <item name="teste-de-unidade" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="org" type="1f31426a:PackageElementNode" />
-              <item name="hamcrest" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="teste-de-unidade" type="58d84e3e:PackageViewProjectNode" />
-              <item name="teste-de-unidade" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="org" type="1f31426a:PackageElementNode" />
-              <item name="hamcrest" type="1f31426a:PackageElementNode" />
-              <item name="core" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="teste-de-unidade" type="58d84e3e:PackageViewProjectNode" />
-              <item name="teste-de-unidade" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="org" type="1f31426a:PackageElementNode" />
-              <item name="junit" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="teste-de-unidade" type="58d84e3e:PackageViewProjectNode" />
-              <item name="teste-de-unidade" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="org" type="1f31426a:PackageElementNode" />
-              <item name="junit" type="1f31426a:PackageElementNode" />
-              <item name="internal" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="teste-de-unidade" type="58d84e3e:PackageViewProjectNode" />
-              <item name="teste-de-unidade" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="org" type="1f31426a:PackageElementNode" />
-              <item name="junit" type="1f31426a:PackageElementNode" />
-              <item name="internal" type="1f31426a:PackageElementNode" />
-              <item name="runners" type="1f31426a:PackageElementNode" />
-            </path>
-            <path>
-              <item name="teste-de-unidade" type="58d84e3e:PackageViewProjectNode" />
-              <item name="teste-de-unidade" type="616d4139:PackageViewModuleNode" />
-              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
-              <item name="org" type="1f31426a:PackageElementNode" />
-              <item name="junit" type="1f31426a:PackageElementNode" />
-              <item name="internal" type="1f31426a:PackageElementNode" />
-              <item name="runners" type="1f31426a:PackageElementNode" />
-              <item name="model" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -526,24 +441,24 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="br.com.caelum.leila.dominio.Lance" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/br/com/caelum/leila/test" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/hamcrest-core-2.1.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java-io" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="copyright" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="br.com.caelum.leila.test" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ricardo Lima Oliveir\Documents\Cursos\Cursos-Java\teste-de-unidade\src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ricardo Lima Oliveir\Documents\Cursos\Cursos-Java\teste-de-unidade" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="br.com.caelum.leila.dominio.Lance" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ricardo Lima Oliveir\Documents\Cursos\Cursos-Java\teste-de-unidade" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ricardo Lima Oliveir\Documents\Cursos\Cursos-Java\teste-de-unidade\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -655,7 +570,7 @@
     </recent_temporary>
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Ricardo Lima Oliveir\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -710,7 +625,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49756098" visible="true" weight="0.31240544" />
       <window_info id="Structure" order="1" sideWeight="0.502439" side_tool="true" weight="0.26096824" />
@@ -895,7 +809,7 @@
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leila/test/AvaliadorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
-          <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -936,7 +850,7 @@
     <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leila/test/LeilaoMatcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="19" lean-forward="true" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#355#356#0" expanded="true" />
@@ -948,6 +862,20 @@
             <element signature="e#704#705#0" expanded="true" />
             <element signature="e#751#752#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leila/test/Teste.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/caelum/leila/test/TesteNovo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
@@ -971,6 +899,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="Copyright.UI">
+        <settings>
+          <last-edited>Curso</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20827943" />
               </list>
             </option>
           </splitter-proportions>
@@ -1038,6 +978,17 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>hamcrest-core-2.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
