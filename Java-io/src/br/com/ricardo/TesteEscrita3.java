@@ -1,20 +1,20 @@
 package br.com.ricardo;
 
-import java.io.BufferedWriter;
-import java.io.FileWriter;
+import java.io.File;
 import java.io.IOException;
+import java.io.PrintStream;
 
-public class TesteEscrita2 {
+public class TesteEscrita3 {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(Constante[] args) throws IOException {
 
-        FileWriter fw = new FileWriter("TesteFileWriter2.txt");
-        BufferedWriter bw = new BufferedWriter(fw);
+        PrintStream ps = new PrintStream(new File(Constante.URL+"printStreamFileTestNovo.txt"));
 
-        bw.write("Primeira linha: testando metodo de criar arquivo txt");
-        bw.newLine();
-        bw.write("Segunda Linha: testando segunda linha de arquivo txt");
+        ps.println("Primeira linha: testando metodo de criar arquivo txt");
+        ps.println();
+        ps.println();
+        ps.println("Segunda Linha: testando segunda linha de arquivo txt");
 
-        bw.close();
+        ps.close();
     }
 }

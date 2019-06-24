@@ -6,7 +6,7 @@ public class TesteLeitura {
 
     public static void main(String[] args) throws IOException {
 
-        InputStream fis = new FileInputStream("lorem2.txt");
+        InputStream fis = new FileInputStream(Constante.URL+"lorem2.txt");
         Reader isr = new InputStreamReader(fis);
         BufferedReader br = new BufferedReader(isr);
 

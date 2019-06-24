@@ -1,22 +1,34 @@
 package br.com.ricardo;
 
-import java.io.*;
+import java.io.File;
+import java.util.Locale;
+import java.util.Scanner;
 
-public class TesteLeitura2 {
+public class TesteLeitura2{
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws Exception {
+        Scanner scanner = new Scanner(new File(Constante.URL+"contas.csv"));
+        while (scanner.hasNextLine()){
+            String linha = scanner.nextLine();
+//            System.out.println(linha);
 
-        InputStream fis = new FileInputStream(Constante.URL+"lorem2.txt");
-        Reader isr = new InputStreamReader(fis);
-        BufferedReader br = new BufferedReader(isr);
+            Scanner linhaScanner = new Scanner(linha);
+            linhaScanner.useLocale(Locale.US);
+            linhaScanner.useDelimiter(",");
 
-        String linha = br.readLine();
+            String valor1 = linhaScanner.next();
+            int valor2 = linhaScanner.nextInt();
+            int valor3 = linhaScanner.nextInt();
+            String valor4 = linhaScanner.next();
+            double valor5 = linhaScanner.nextDouble();
 
-        while (linha != null) {
-            System.out.println(linha);
-            linha = br.readLine();
+            System.out.println(valor1 + valor2 + valor3 + valor4 + valor5);
+
+            linhaScanner.close();
+
+//            String[] valores =  linha.split(",");
+//            System.out.println(valores[3]);
         }
-
-        br.close();
+        scanner.close();
     }
 }
