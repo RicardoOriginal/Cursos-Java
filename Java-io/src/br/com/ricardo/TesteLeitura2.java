@@ -16,13 +16,15 @@ public class TesteLeitura2{
             linhaScanner.useLocale(Locale.US);
             linhaScanner.useDelimiter(",");
 
-            String valor1 = linhaScanner.next();
-            int valor2 = linhaScanner.nextInt();
-            int valor3 = linhaScanner.nextInt();
-            String valor4 = linhaScanner.next();
-            double valor5 = linhaScanner.nextDouble();
+            String tipoConta = linhaScanner.next();
+            int agencia = linhaScanner.nextInt();
+            int conta = linhaScanner.nextInt();
+            String titular = linhaScanner.next();
+            double saldo = linhaScanner.nextDouble();
 
-            System.out.println(valor1 + valor2 + valor3 + valor4 + valor5);
+            String texto = String.format(formatoBrasileiro(), "%s - %04d-%08d, %20s: %10.2f", tipoConta, agencia, conta, titular, saldo);
+
+            System.out.println(texto);
 
             linhaScanner.close();
 
@@ -30,5 +32,9 @@ public class TesteLeitura2{
 //            System.out.println(valores[3]);
         }
         scanner.close();
+    }
+
+    private static Locale formatoBrasileiro(){
+        return new Locale("pt", "BR");
     }
 }
