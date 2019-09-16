@@ -38,9 +38,5 @@ public class TesteMap {
         Period periodo = Period.between(homemNoEspaco, homemNaLua);
 
         System.out.println(periodo.getMonths());
-
-//        System.out.printf("%s anos, %s mês e %s dias",
-//                periodo.getYears() , periodo.getMonths(), periodo.getDays());
-        //8 anos, 1 mês e 13 dias
     }
 }
