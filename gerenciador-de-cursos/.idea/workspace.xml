@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3fda2b77-5e10-4075-a8ca-2b3a3469ded1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Java-io/.idea/Java-io.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/Exercicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/ImprimindoAlunosSemAcentos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/OrdenaPorIdade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/OrdenaReciboPorNumero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/Recibo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/TestaAlunos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/TestaBuscaAlunosNoCurso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/TestaCursoComAluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/TestaPerformance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/TesteAlunosSemAcentos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/TesteEmptySet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/TesteFuncionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/TesteMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/ricardo/TesteRecibo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-io/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-io/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-io/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-io/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/Constante.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/Constante.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteCopiarArquivo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteCopiarArquivo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteEncodeEEncoding.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteEncodeEEncoding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteEscrita.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteEscrita.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteEscrita3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteEscrita3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteEscritaFileWriter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteEscritaFileWriter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteLeitura.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteLeitura.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteLeitura2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteLeitura2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteSerializacao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Java-io/out/production/java-io/br/com/ricardo/TesteSerializacao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/bin/Designer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/bin/Designer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/bin/EditorVideo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/bin/EditorVideo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bytebank-herdado/bin/SistemaInterno.class" beforeDir="false" afterPath="$PROJECT_DIR$/../bytebank-herdado/bin/SistemaInterno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/ricardo/Aula.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/ricardo/Aula.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/ricardo/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/ricardo/Curso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/ricardo/TestaCurso.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/ricardo/TestaCurso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/ricardo/TestaCurso2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/ricardo/TestaCurso2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/ricardo/TestaListaDeAula.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/ricardo/TestaListaDeAula.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/ricardo/TestandoListas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/ricardo/TestandoListas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/br/com/ricardo/TesteListas.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/br/com/ricardo/TesteListas.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ricardo/Curso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ricardo/Curso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/ricardo/TestaCurso2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/ricardo/TestaCurso2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxe-variaveis-e-fluxo/bin/TestaCondicional.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sintaxe-variaveis-e-fluxo/bin/TestaCondicional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxe-variaveis-e-fluxo/bin/TesteIR.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sintaxe-variaveis-e-fluxo/bin/TesteIR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxe-variaveis-e-fluxo/bin/TestePontoFlutuante.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sintaxe-variaveis-e-fluxo/bin/TestePontoFlutuante.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sintaxe-variaveis-e-fluxo/bin/TesteVariaveis.class" beforeDir="false" afterPath="$PROJECT_DIR$/../sintaxe-variaveis-e-fluxo/bin/TesteVariaveis.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/AnoBissexto.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/AnoBissexto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/Avaliador$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/Avaliador$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/Avaliador.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/Avaliador.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/FiltroDeLances.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/FiltroDeLances.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/Lance.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/Lance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/Leilao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/Leilao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/MatematicaMaluca.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/MatematicaMaluca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/dominio/Usuario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/AnoBissextoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/AnoBissextoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/AvaliadorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/AvaliadorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/FiltroDeLancesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/FiltroDeLancesTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/LanceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/LanceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/LeilaoMatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/LeilaoMatcher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/LeilaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/LeilaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/MatematicaMalucaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/test/MatematicaMalucaTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/testDataBuilder/CriadorDeLeilao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../teste-de-unidade/bin/br/com/caelum/leila/testDataBuilder/CriadorDeLeilao.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TesteRecibo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TestaBuscaAlunosNoCurso.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/Exercicio.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TesteMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/Curso.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+              <folding>
+                <element signature="e#504#505#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TestaCursoComAluno.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-288">
+              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TestaCurso2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="62" selection-start-line="12" selection-start-column="8" selection-end-line="14" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/OrdenaReciboPorNumero.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TesteFuncionario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/TestaAlunos.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/TestaCurso2.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/ImprimindoAlunosSemAcentos.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/TesteAlunosSemAcentos.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/TestaPerformance.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/Aula.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/TesteEmptySet.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/Aluno.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/Recibo.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/TestaCursoComAluno.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/Funcionario.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/TesteFuncionario.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/OrdenaPorIdade.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/OrdenaReciboPorNumero.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/TesteRecibo.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/TestaAlunosNoCurso.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/Curso.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/TestaBuscaAlunosNoCurso.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/Exercicio.java" />
+        <option value="$PROJECT_DIR$/src/br/com/ricardo/TesteMap.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1600" />
+    <option name="y" value="-2" />
+    <option name="width" value="1366" />
+    <option name="height" value="770" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gerenciador-de-cursos" type="58d84e3e:PackageViewProjectNode" />
+              <item name="gerenciador-de-cursos" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="gerenciador-de-cursos" type="58d84e3e:PackageViewProjectNode" />
+              <item name="gerenciador-de-cursos" type="616d4139:PackageViewModuleNode" />
+              <item name="br.com.ricardo" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gerenciador-de-cursos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gerenciador-de-cursos" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TesteMap">
+    <configuration name="Exercicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ricardo.Exercicio" />
+      <module name="gerenciador-de-cursos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ricardo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaBuscaAlunosNoCurso" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ricardo.TestaBuscaAlunosNoCurso" />
+      <module name="gerenciador-de-cursos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ricardo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteFuncionario" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ricardo.TesteFuncionario" />
+      <module name="gerenciador-de-cursos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ricardo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ricardo.TesteMap" />
+      <module name="gerenciador-de-cursos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ricardo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteRecibo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.ricardo.TesteRecibo" />
+      <module name="gerenciador-de-cursos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.ricardo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TesteMap" />
+        <item itemvalue="Application.Exercicio" />
+        <item itemvalue="Application.TestaBuscaAlunosNoCurso" />
+        <item itemvalue="Application.TesteRecibo" />
+        <item itemvalue="Application.TesteFuncionario" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fda2b77-5e10-4075-a8ca-2b3a3469ded1" name="Default Changelist" comment="" />
+      <created>1568555588151</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568555588151</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1667" y="25" width="1299" height="743" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16999201" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32899022" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/ImprimindoAlunosSemAcentos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TesteAlunosSemAcentos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TestaPerformance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jrt:///usr/lib/jvm/java-1.11.0-openjdk-amd64!/java.base/java/util/function/Consumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/Aula.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TesteEmptySet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/Recibo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#152#153#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/Aluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding>
+            <element signature="e#333#334#0" expanded="true" />
+            <element signature="e#371#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/OrdenaPorIdade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/Funcionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TesteFuncionario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/OrdenaReciboPorNumero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TesteRecibo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TestaCurso2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="62" selection-start-line="12" selection-start-column="8" selection-end-line="14" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TestaAlunos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TestaCursoComAluno.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/Curso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="53" column="17" selection-start-line="53" selection-start-column="17" selection-end-line="53" selection-end-column="17" />
+          <folding>
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TestaBuscaAlunosNoCurso.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/Exercicio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/ricardo/TesteMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
